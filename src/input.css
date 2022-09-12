@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Left and Right Margins*/
+.lrMargin {
+    @apply mx-5 sm:mx-10 md:mx-14 lg:mx-20 xl:mx-24;
+}
+/*Top and Bottum Padding*/
+.tbMargin {
+    @apply my-5 sm:my-10 md:my-14 lg:my-20 xl:my-24;
+}
+/*Top and Bottum Padding*/
+.tbPadding {
+    @apply py-5 sm:py-10 md:py-14 lg:py-20 xl:py-24;
+}
+/*Padding X sides*/
+.paddingX {
+    @apply px-5 sm:px-10 md:px-14 lg:px-20 xl:px-24;
+}
+
+.navLinks {
+    @apply mx-1 hover:text-orange-300 sm:mx-5 ;
+}
+
+
+/*Form Text Css*/
+.formText {
+    @apply  p-3 px-6 mt-3 text-base border-b;
+}
+
+
+/*SectionIcons*/
+.iconCss {
+    @apply text-2xl text-slate-400 hover:text-orange-500;
+}
+
+
+/*Tab Css section 2*/
+.tabCss {
+    @apply p-6 py-8 bg-red-600 border-slate-100 border hover:bg-orange-500;
+}
+
+/*Heading Text Size*/
+.headingText {
+    @apply text-lg font-bold;
+}
+
+
+/*Margins Section 3*/
+.marginSection3 {
+    @apply my-5 sm:my-5 md:my-14 lg:my-2;
+}
