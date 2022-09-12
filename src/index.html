@@ -24,17 +24,27 @@
     <nav class="bg-black text-white p-3 sm:p-6">
 
         <!--Nav Flex Container-->
-        <div class="lrMargin sm:flex sm:justify-between">
+        <div class="lrMargin sm:flex sm:justify-between items-center">
+            <div class="flex justify-between items-center">
             <!--Nav Heading-->
-            <h1 class="text-4xl">AX<span class="text-orange-300">IT</span>
-            </h1>
-            <!--Nav Links-->
-            <div class="flex justify-between mt-2 sm:mt-0 sm:items-center">
-                <a href="./" class="navLinks">Main</a>
-                <a href="./" class="navLinks">Features</a>
-                <a href="./" class="navLinks">Pricing</a>
-                <a href="./" class="navLinks">Contact</a>
+                <h1 class="text-4xl">AX<span class="text-orange-300">IT</span>
+                </h1>
+            <!--Nav tab for Mobile screens-->
+                <div class="cursor-pointer sm:hidden" id="menue">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </div>
             </div>
+
+            <!--Nav Links-->
+            <div class="hidden sm:block" id="link">
+                <div class="flex justify-end gap-2 sm:justify-between mt-2 sm:mt-0 sm:items-center">
+                    <a href="./" class="navLinks">Main</a>
+                    <a href="./" class="navLinks">Features</a>
+                    <a href="./" class="navLinks">Pricing</a>
+                    <a href="./" class="navLinks">Contact</a>
+                </div>
+            </div>
+
         </div>
     </nav>
 
@@ -267,10 +277,7 @@
         <span class="text-orange-500">_________</span>
         <p>Lorem ipsum dolor sit amet consectetur</p>
     </footer>
-    <section class="hidden">
-        <!--this section will be hidden for git testing-->
-        <!--Second addition-->
-    </section>
+ <script src="/src/index.js"></script>
 </body>
 
 </html>
